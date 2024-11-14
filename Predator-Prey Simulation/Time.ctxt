@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Time
+comment0.text=\r\n\ Time\ class\ keeps\ track\ of\ time\ of\ day.\r\n\r\n\ @author\ Heenal\ Vyas\ and\ Mustafa\ Gulzar.\r\n\ @version\ 2021.03.01.\r\n
+comment1.params=
+comment1.target=Time()
+comment1.text=\r\n\ Constructor\ for\ the\ time\ class.\ The\ starting\ hour\ is\ zero.\r\n
+comment2.params=
+comment2.target=int\ getHour()
+comment2.text=\r\n\ \ The\ following\ method\ gets\ the\ hour.\r\n\ \ @return\ hour\r\n
+comment3.params=
+comment3.target=void\ resetHour()
+comment3.text=\r\n\ \ The\ following\ method\ resets\ the\ hour\ to\ zero.\r\n
+comment4.params=
+comment4.target=int\ incrementHour()
+comment4.text=\r\n\ \ Following\ method\ increments\ hour\ if\ the\ hour\ is\ less\ than\ 23,\ similar\ to\ a\ 24\ hour\ clock.\r\n\ \ Otherwise\ sets\ the\ hour\ value\ to\ zero\ which\ is\ the\ start\ of\ a\ new\ day.\r\n
+comment5.params=
+comment5.target=boolean\ isAsleep()
+comment5.text=\r\n\ Checks\ whether\ the\ hour\ is\ between\ 3pm\ and\ 9pm\ like\ a\ 24\ hour\ clock.\r\n\ If\ the\ hour\ is\ between\ 15\ and\ 21,\ the\ animal\ is\ asleep.\r\n\r\n\ @param\ \ hour\r\n\ @return\ true\ if\ animal\ is\ asleep\ \ \ \r\n
+comment6.params=
+comment6.target=boolean\ isGrowingTimeForPlants()
+comment6.text=\r\n\ Plants\ will\ be\ able\ to\ grow\ every\ 20\ hours.\r\n\ @return\ true\ if\ it\ is\ the\ growing\ time\ for\ plants.\ \ \r\n
+comment7.params=
+comment7.target=boolean\ isDayTime()
+numComments=8

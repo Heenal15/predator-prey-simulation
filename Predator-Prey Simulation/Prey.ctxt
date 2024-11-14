@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Prey
+comment1.params=field\ location\ time\ maxAge\ breedingAge\ breedingProbability\ maxFoodLevel
+comment1.target=Prey(Field,\ Location,\ Time,\ int,\ int,\ double,\ int)
+comment2.params=newAnimals\ weather
+comment2.target=void\ act(java.util.List,\ Weather)
+comment3.params=
+comment3.target=void\ eatPlants()
+comment3.text=\r\n\ Attempt\ to\ eat\ plants\ in\ adjacent\ locations.\r\n\ If\ a\ plant\ is\ found,\ increase\ the\ prey's\ food\ level\ and\ mark\ the\ plant\ as\ eaten.\r\n
+comment4.params=
+comment4.target=void\ forage()
+comment4.text=\r\n\ Forage\ behavior,\ where\ prey\ animals\ look\ for\ food,\ such\ as\ plants.\r\n
+comment5.params=
+comment5.target=void\ moveRandomly()
+numComments=6

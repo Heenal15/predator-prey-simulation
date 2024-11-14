@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Mantis
+comment1.params=field\ location\ time
+comment1.target=Mantis(Field,\ Location,\ Time)
+comment2.params=
+comment2.target=int\ getLitterSize()
+comment3.params=location
+comment3.target=Animal\ createOffspring(Location)
+numComments=4

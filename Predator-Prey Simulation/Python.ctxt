@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Python
+comment0.text=\r\n\ A\ simple\ model\ of\ a\ Python.\r\n\ Pythons\ age,\ move,\ eat\ rats,\ magpies,\ mantises\ and\ die.\r\n\ \r\n\ @author\ David\ J.\ Barnes,\ Michael\ K\u00F6lling,\ Mustafa\ Gulzar\ and\ Heenal\ Vyas\r\n\ @version\ 2024.11.14\r\n
+comment1.params=field\ location\ time
+comment1.target=Python(Field,\ Location,\ Time)
+comment1.text=\r\n\ Constructor\ for\ Python,\ setting\ specific\ values\ for\ max\ age,\ breeding\ age,\ and\ breeding\ probability.\r\n\r\n\ @param\ field\ The\ field\ currently\ occupied.\r\n\ @param\ location\ The\ location\ within\ the\ field.\r\n\ @param\ time\ The\ current\ time\ object\ for\ tracking\ day/night\ cycles.\r\n
+comment2.params=location
+comment2.target=Animal\ createOffspring(Location)
+comment2.text=\r\n\ Create\ a\ new\ Python\ in\ the\ specified\ location.\r\n\ This\ is\ called\ when\ an\ Python\ breeds.\r\n\r\n\ @param\ location\ The\ location\ for\ the\ new\ Python.\r\n\ @return\ A\ new\ Python\ instance.\r\n
+comment3.params=
+comment3.target=double\ getBaseHuntingProbability()
+comment4.params=
+comment4.target=int\ getLitterSize()
+comment5.params=weather\ newAnimals
+comment5.target=void\ hunt(Weather,\ java.util.List)
+comment6.params=weather
+comment6.target=void\ adjustHuntingProbability(Weather)
+comment7.params=prey
+comment7.target=void\ eat(Prey)
+comment7.text=\r\n\ Define\ Python's\ behavior\ for\ eating\ prey.\r\n\r\n\ @param\ prey\ The\ prey\ to\ be\ eaten.\r\n
+numComments=8
